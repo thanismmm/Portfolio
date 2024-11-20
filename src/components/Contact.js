@@ -3,6 +3,8 @@ import mailbox from "../assets/mailbox.png";
 import facebook from "../assets/facebook.png";
 import instagram from "../assets/instagram.png";
 import linkedin from "../assets/linkedin.png";
+import tele from "../assets/tele.png";
+import mail from "../assets/mail.png";
 
 const Contact = () => {
   const [name, setName] = useState("");
@@ -80,6 +82,19 @@ const Contact = () => {
               alt="Contact Us"
               className="w-[500px] mx-auto lg:w-[500px] rounded-lg"
             />
+
+            <div className="flex items-center mt-10 gap-4 ml-14 h-10 w-fit">
+              <p className="bg-white rounded-md w-fit   flex">
+                <img src={tele} alt="Contact Us" className="w-5" />
+              </p>
+              <p className="text-white font-bold">+94 76 307 5074</p>
+            </div>
+            <div className="flex items-center mt-5 gap-4 ml-14 h-10 w-fit">
+              <p className="bg-white rounded-md w-6 flex items-center justify-center">
+                <img src={mail} alt="Contact Us" className="w-5" />
+              </p>
+              <p className="text-white font-bold">Thanis7168t@gmai.com</p>
+            </div>
           </div>
           <form
             className="w-full md:w-1/2 bg-gray-100 rounded-lg border border-red-300 shadow-lg shadow-red-500 p-10 mr-0 lg:mr-4"
