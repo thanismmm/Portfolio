@@ -15,8 +15,10 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (name && email && message) {
+      // Here you would typically send the data to a server
       console.log("Form submitted with data:", { name, email, message });
       setSubmitted(true);
+      // Clear form fields
       setName("");
       setEmail("");
       setMessage("");
@@ -97,7 +99,6 @@ const Contact = () => {
           <form
             action="https://formspree.io/f/xovqlnyd"
             method="POST"
-            onSubmit={handleSubmit}
             className="w-full md:w-1/2 bg-gray-100 rounded-lg border border-red-300 shadow-lg shadow-red-500 p-10 mr-0 lg:mr-4"
           >
             <h1 className="text-gray-900 text-4xl font-bold mb-7">
@@ -155,6 +156,7 @@ const Contact = () => {
             <button
               type="submit"
               className="bg-red-500 text-white px-3 py-2 rounded-lg"
+              onSubmit={handleSubmit}
             >
               Send Message
             </button>
