@@ -83,13 +83,13 @@ const Contact = () => {
               className="w-[500px] mx-auto lg:w-[500px] rounded-lg"
             />
 
-            <div className="flex items-center mt-10 gap-4 ml-14 h-10 w-fit">
+            <div className="flex items-center mt-5 gap-4 ml-1 h-10 w-fit lg:ml-14 ">
               <p className="bg-white rounded-md w-fit   flex">
                 <img src={tele} alt="Contact Us" className="w-5" />
               </p>
               <p className="text-white font-bold">+94 76 307 5074</p>
             </div>
-            <div className="flex items-center mt-5 gap-4 ml-14 h-10 w-fit">
+            <div className="flex items-center mt-5 gap-4 ml-1 h-10 w-fit lg:ml-14 ">
               <p className="bg-white rounded-md w-6 flex items-center justify-center">
                 <img src={mail} alt="Contact Us" className="w-5" />
               </p>
