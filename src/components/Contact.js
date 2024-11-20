@@ -15,10 +15,8 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (name && email && message) {
-      // Here you would typically send the data to a server
       console.log("Form submitted with data:", { name, email, message });
       setSubmitted(true);
-      // Clear form fields
       setName("");
       setEmail("");
       setMessage("");
@@ -97,8 +95,9 @@ const Contact = () => {
             </div>
           </div>
           <form
-            action="https://formspree.io/f/xovqlnyd" // Replace 'your_form_id' with the Formspree form URL ID
+            action="https://formspree.io/f/xovqlnyd"
             method="POST"
+            onSubmit={handleSubmit}
             className="w-full md:w-1/2 bg-gray-100 rounded-lg border border-red-300 shadow-lg shadow-red-500 p-10 mr-0 lg:mr-4"
           >
             <h1 className="text-gray-900 text-4xl font-bold mb-7">
@@ -118,7 +117,7 @@ const Contact = () => {
               </label>
               <input
                 type="text"
-                name="name" // Ensure the 'name' attribute matches Formspree requirements
+                name="name"
                 placeholder="Full Name"
                 className="mt-1 p-2 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
                 required
@@ -133,7 +132,7 @@ const Contact = () => {
               </label>
               <input
                 type="email"
-                name="email" // Ensure the 'name' attribute matches Formspree requirements
+                name="email"
                 placeholder="Email"
                 className="mt-1 p-2 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
                 required
@@ -147,7 +146,7 @@ const Contact = () => {
                 Message
               </label>
               <textarea
-                name="message" // Ensure the 'name' attribute matches Formspree requirements
+                name="message"
                 placeholder="Enter Your Message"
                 className="mt-1 p-2 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
                 required
