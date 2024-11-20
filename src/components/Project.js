@@ -9,7 +9,7 @@ import Cards from "./Card";
 const Projects = () => {
   const projectJson = [
     {
-      title: "News Page ",
+      title: "News Page",
       desc: "A fully responsive news platform using React and Open News Content API for real-time updates.",
       image: newspage,
       live: "https://news-page-2024.netlify.app/",
