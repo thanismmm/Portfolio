@@ -97,14 +97,17 @@ const Contact = () => {
             </div>
           </div>
           <form
+            action="https://formspree.io/f/xovqlnyd" // Replace 'your_form_id' with the Formspree form URL ID
+            method="POST"
             className="w-full md:w-1/2 bg-gray-100 rounded-lg border border-red-300 shadow-lg shadow-red-500 p-10 mr-0 lg:mr-4"
-            onSubmit={handleSubmit}
           >
             <h1 className="text-gray-900 text-4xl font-bold mb-7">
               Contact Me
             </h1>
             {submitted && (
-              <p className="mb-4 text-green-500">Thank you for your message!</p>
+              <p className="mb-4 text-green-500">
+                Thank you for Attention, Keep Connect!
+              </p>
             )}
             <div className="mb-4">
               <label
@@ -115,11 +118,10 @@ const Contact = () => {
               </label>
               <input
                 type="text"
-                id="name"
-                value={name}
-                onChange={(e) => setName(e.target.value)}
+                name="name" // Ensure the 'name' attribute matches Formspree requirements
                 placeholder="Full Name"
                 className="mt-1 p-2 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                required
               />
             </div>
             <div className="mb-4">
@@ -131,11 +133,10 @@ const Contact = () => {
               </label>
               <input
                 type="email"
-                id="email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
+                name="email" // Ensure the 'name' attribute matches Formspree requirements
                 placeholder="Email"
                 className="mt-1 p-2 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                required
               />
             </div>
             <div className="mb-4">
@@ -146,11 +147,10 @@ const Contact = () => {
                 Message
               </label>
               <textarea
-                id="message"
-                value={message}
-                onChange={(e) => setMessage(e.target.value)}
+                name="message" // Ensure the 'name' attribute matches Formspree requirements
                 placeholder="Enter Your Message"
                 className="mt-1 p-2 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                required
               ></textarea>
             </div>
             <button
