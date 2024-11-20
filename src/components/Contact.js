@@ -93,7 +93,7 @@ const Contact = () => {
               <p className="bg-white rounded-md w-6 flex items-center justify-center">
                 <img src={mail} alt="Contact Us" className="w-5" />
               </p>
-              <p className="text-white font-bold">Thanis7168t@gmai.com</p>
+              <p className="text-white font-bold">Thanis7168t@gmail.com</p>
             </div>
           </div>
           <form
