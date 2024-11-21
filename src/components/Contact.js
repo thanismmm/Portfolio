@@ -15,10 +15,8 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (name && email && message) {
-      // Here you would typically send the data to a server
       console.log("Form submitted with data:", { name, email, message });
       setSubmitted(true);
-      // Clear form fields
       setName("");
       setEmail("");
       setMessage("");
@@ -120,6 +118,8 @@ const Contact = () => {
                 type="text"
                 name="name"
                 placeholder="Full Name"
+                value={name} // Bind the value to the state
+                onChange={(e) => setName(e.target.value)} // Update state on change
                 className="mt-1 p-2 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
                 required
               />
@@ -135,6 +135,8 @@ const Contact = () => {
                 type="email"
                 name="email"
                 placeholder="Email"
+                value={email} // Bind the value to the state
+                onChange={(e) => setEmail(e.target.value)} // Update state on change
                 className="mt-1 p-2 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
                 required
               />
@@ -149,10 +151,13 @@ const Contact = () => {
               <textarea
                 name="message"
                 placeholder="Enter Your Message"
+                value={message} // Bind the value to the state
+                onChange={(e) => setMessage(e.target.value)} // Update state on change
                 className="mt-1 p-2 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
                 required
               ></textarea>
             </div>
+
             <button
               type="submit"
               className="bg-red-500 text-white px-3 py-2 rounded-lg"
