@@ -7,7 +7,7 @@ import Bootstrap from "../assets/bootstrap.png";
 import NodeJs from "../assets/nodejs.png";
 import MongoDb from "../assets/mongodb.png";
 import Express from "../assets/expressJS.png";
-import NextJs from "../assets/nextjs.png";
+import python from "../assets/python.png";
 
 const About = () => {
   return (
@@ -86,8 +86,8 @@ const About = () => {
                   <span className="font-semibold">Express.js</span>
                 </div>
                 <div className="border border-red-300 flex items-center gap-1 w-max px-2 py-1 rounded-lg shadow-md shadow-red-300">
-                  <img src={NextJs} alt="Next.js" className="w-9" />
-                  <span className="font-semibold">Next.js</span>
+                  <img src={python} alt="Next.js" className="w-9" />
+                  <span className="font-semibold">Python</span>
                 </div>
               </div>
             </div>
