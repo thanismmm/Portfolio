@@ -24,11 +24,11 @@ const Projects = () => {
       github: "https://github.com/thanismmm/Hospital-Website",
     },
     {
-      title: "Solent Health Care",
+      title: "Traval Explorer",
       desc: "The Travel Explore website helps users discover destinations, plan trips, and book travel packages seamlessly.",
       image: TE,
       live: "https://traval-explore.netlify.app/",
-      github: "https://github.com/thanismmm/Traval-Explore",
+      github: "https://github.com/thanismmm/Traval-Explorer",
     },
     {
       title: "Book Recommendation System",
