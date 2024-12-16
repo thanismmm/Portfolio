@@ -11,7 +11,7 @@ const Projects = () => {
   const projectJson = [
     {
       title: "News Page",
-      desc: "A fully responsive news platform using React and Open News Content API for real-time updates.",
+      desc: "A fully responsive news platform using React and Open News Content API for real-time updates, and Explore News Within a Click.",
       image: newspage,
       live: "https://news-page-2024.netlify.app/",
       github: "https://github.com/thanismmm/News-Page",
