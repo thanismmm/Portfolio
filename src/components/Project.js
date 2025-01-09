@@ -2,6 +2,7 @@ import React from "react";
 import newspage from "../assets/newspage.png";
 import hospital from "../assets/hospital.png";
 import book_rec from "../assets/book_rec.png";
+import TE from "../assets/image.png";
 import bps from "../assets/bps.png";
 import erp from "../assets/erp.png";
 import Cards from "./Card";
@@ -10,7 +11,7 @@ const Projects = () => {
   const projectJson = [
     {
       title: "News Page",
-      desc: "A fully responsive news platform using React and Open News Content API for real-time updates.",
+      desc: "A fully responsive news platform using React and Open News Content API for real-time updates, and Explore News Within a Click.",
       image: newspage,
       live: "https://news-page-2024.netlify.app/",
       github: "https://github.com/thanismmm/News-Page",
@@ -21,6 +22,13 @@ const Projects = () => {
       image: hospital,
       live: "https://solent-health-care.netlify.app/",
       github: "https://github.com/thanismmm/Hospital-Website",
+    },
+    {
+      title: "Traval Explorer",
+      desc: "The Travel Explore website helps users discover destinations, plan trips, and book travel packages seamlessly.",
+      image: TE,
+      live: "https://traval-explore.netlify.app/",
+      github: "https://github.com/thanismmm/Traval-Explorer",
     },
     {
       title: "Book Recommendation System",
