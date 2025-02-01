@@ -6,6 +6,7 @@ import TE from "../assets/image.png";
 import bps from "../assets/bps.png";
 import erp from "../assets/erp.png";
 import Cards from "./Card";
+import eseller from "../assets/eseller.png";
 
 const Projects = () => {
   const projectJson = [
@@ -16,6 +17,15 @@ const Projects = () => {
       live: "https://news-page-2024.netlify.app/",
       github: "https://github.com/thanismmm/News-Page",
     },
+
+    {
+      title: "E-Seller",
+      desc: "E-Seller is a modern, responsive e-commerce platform built with React, FakeAPI, React Hooks, and Bootstrap, offering a seamless shopping experience with products, cart management, and an intuitive UI.",
+      image: eseller,
+      live: "https://e-seller-two.vercel.app/",
+      github: "https://github.com/thanismmm/E-Seller",
+    },
+
     {
       title: "Solent Health Care",
       desc: "Designed and developed a dynamic hospital website with HTML, CSS, JavaScript, PHP, and MySQL for efficient data management.",
