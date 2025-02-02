@@ -7,6 +7,7 @@ import bps from "../assets/bps.png";
 import erp from "../assets/erp.png";
 import Cards from "./Card";
 import eseller from "../assets/eseller.png";
+import barber from "../assets/barber.jpg";
 
 const Projects = () => {
   const projectJson = [
@@ -24,6 +25,15 @@ const Projects = () => {
       image: eseller,
       live: "https://e-seller-two.vercel.app/",
       github: "https://github.com/thanismmm/E-Seller",
+    },
+
+    {
+      title: "Smart Barber",
+      desc: "Designed a sleek and user-friendly mobile application, Smart Barber using Figma. The project includes both wireframes and an interactive prototype, ensuring a seamless booking experience for users",
+      image: barber,
+      live: "https://www.figma.com/design/VEOJjWV5SPnUnOYF5KBZwQ/MR.Barber?node-id=0-1&t=b1up4uCYBR0vqTEM-1",
+      github:
+        "https://www.figma.com/design/VEOJjWV5SPnUnOYF5KBZwQ/MR.Barber?node-id=0-1&t=b1up4uCYBR0vqTEM-1",
     },
 
     {
