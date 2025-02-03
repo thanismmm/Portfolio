@@ -22,7 +22,7 @@ const About = () => {
               Hi, I'm Thanis
             </p>
             <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-              A Front-End Developer with expertise in web development,
+              A Full-Stack Developer with expertise in web development,
               WordPress, SEO, and Currently enhancing my skills in the MERN
               stack to build dynamic and scalable web applications.
             </p>

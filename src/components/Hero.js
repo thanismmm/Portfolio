@@ -11,11 +11,14 @@ const Hero = () => {
               Hi There, <br /> I'm
               <span className="text-red-500"> Thanis</span>
             </h1>
-            <p className="text-2xl">Front-End Developer</p>
+            <p className="text-2xl">Full-Stack Developer (Fresher)</p>
             <p className="">
-              I'm a passionate web developer with expertise in React, and modern
-              web technologies. I love creating beautiful and functional
-              websites that solve real world problems.
+              Aspiring Full-Stack Developer with expertise in front-end and
+              back-end technologies. Passionate about building scalable,
+              high-performance web applications. Skilled in React, Node.js, and
+              Tailwind CSS, with a strong focus on problem-solving and
+              optimization. Eager to contribute to innovative projects while
+              continuously learning and growing.
             </p>
             <a
               href="/Thanis_cv.pdf"
