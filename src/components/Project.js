@@ -8,6 +8,7 @@ import erp from "../assets/erp.png";
 import Cards from "./Card";
 import eseller from "../assets/eseller.png";
 import barber from "../assets/barber.jpg";
+import loginp from "../assets/login.png";
 
 const Projects = () => {
   const projectJson = [
@@ -17,6 +18,14 @@ const Projects = () => {
       image: newspage,
       live: "https://news-page-2024.netlify.app/",
       github: "https://github.com/thanismmm/News-Page",
+    },
+
+    {
+      title: "Smart Bell System",
+      desc: "A Flutter app that automates school bell scheduling, tracks student and staff attendance, and offers customizable bell tones for a flexible and efficient school management experience.",
+      image: loginp,
+      live: "https://github.com/thanismmm/test_bellsystem",
+      github: "https://github.com/thanismmm/test_bellsystem",
     },
 
     {
