@@ -11,14 +11,9 @@ const Hero = () => {
               Hi There, <br /> I'm
               <span className="text-red-500"> Thanis</span>
             </h1>
-            <p className="text-2xl">Full-Stack Developer (Fresher)</p>
+            <p className="text-2xl">Associate Software Engineer | IT Support</p>
             <p className="">
-              Aspiring Full-Stack Developer with expertise in front-end and
-              back-end technologies. Passionate about building scalable,
-              high-performance web applications. Skilled in React, Node.js, and
-              Tailwind CSS, with a strong focus on problem-solving and
-              optimization. Eager to contribute to innovative projects while
-              continuously learning and growing.
+              Enthusiastic and adaptable professional with a strong foundation in software development and IT support. Skilled in front-end and back-end technologies, including React, Node.js, and Tailwind CSS, with a passion for building scalable and efficient web applications. Experienced in troubleshooting, system maintenance, and providing reliable IT helpdesk support. Eager to contribute to innovative projects, enhance user experiences, and grow continuously as a well-rounded software engineer.
             </p>
             <a
               href="/Thanis_cv.pdf"
