@@ -85,7 +85,7 @@ const Contact = () => {
               <p className="bg-white rounded-md w-fit   flex">
                 <img src={tele} alt="Contact Us" className="w-5" />
               </p>
-              <p className="text-white font-bold">+94 76 307 5074</p>
+              <p className="text-white font-bold">+974 31461722</p>
             </div>
             <div className="flex items-center mt-5 gap-4 ml-1 h-10 w-fit lg:ml-14 ">
               <p className="bg-white rounded-md w-6 flex items-center justify-center">
