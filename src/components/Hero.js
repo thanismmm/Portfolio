@@ -23,7 +23,7 @@ const Hero = () => {
               Download CV
             </a>
           </div>
-          <div className="md:w-1/2 relative flex justify-center items-end bg-gray-200 h-[40vh] lg:h-[90vh] md:h-[75vh] -ml-5 w-full md:mr-5 ">
+          <div className="md:w-1/2 relative flex justify-center items-end bg-gray-300 h-[40vh] lg:h-[90vh] md:h-[75vh] -ml-5 w-full md:mr-5 ">
             <img src={hero} alt="" className="lg:h-[100vh]  h-96" />
           </div>
         </div>
