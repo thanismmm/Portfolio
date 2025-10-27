@@ -9,6 +9,7 @@ import Cards from "./Card";
 import eseller from "../assets/eseller.png";
 import barber from "../assets/barber.jpg";
 import loginp from "../assets/login.png";
+import trendz from "../assets/trendz.jpg";
 
 const Projects = () => {
   const projectJson = [
@@ -26,6 +27,14 @@ const Projects = () => {
       image: loginp,
       live: "https://github.com/thanismmm/test_bellsystem",
       github: "https://github.com/thanismmm/test_bellsystem",
+    },
+
+    {
+      title: "Trendz Hair Salon App",
+      desc: "Trendz-Hair-Studio is a Flutter-based mobile app for salon management. Named Trendz Hair Studio, it handles staff management, bookings, scheduling, and bill printing for hair studios, it aims to streamline salon operations.",
+      image: trendz,
+      live: "https://github.com/thanismmm/Trendz-Hair-Studio.git",
+      github: "https://github.com/thanismmm/Trendz-Hair-Studio.git",
     },
 
     {
